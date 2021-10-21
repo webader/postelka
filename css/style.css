@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+
+.mainheader  {
+    padding: 100px 0 65px;
+    background: no-repeat  url("../img/bg_utp.png");
+    background-size: cover; /*растянуть картинку на бекгроунде на весь экран*/
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.header__title {
+    font-family: 'Futura PT';
+    font-size: 100px;
+    line-height: 80px;
+    font-weight: 900;
+    letter-spacing: 0.015em;
+    color: #4b5262;
+}
+
+.header__title__sub {
+    font-family: 'Futura PT - Demi';
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #4b5262;
+}
+
+.header__title__sub-red {
+    font-family: 'Futura PT - Demi';
+    font-size: 62px;
+    line-height: 99px;
+    font-weight: 400;
+    color: #e36d77;
+}
+
+.header__link {
+    font-family: 'Futura PT - Demi';
+    font-size: 22px;
+    line-height: 80px;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    padding: 25px 40px;
+    background-color: #4b5262;
+    text-decoration: none;
+}
+
+.red_line {
+    background-color: #e36d77;
+}
+
+.red_line__list {
+    display: flex;
+}
+
+.red_line__item {
+    margin: 40px 80px 40px 0;
+    color: white;
+    display: flex;
+}
+
+.right__title {
+    font-family: 'Futura PT - Demi';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+
+.right__title__sub {
+    font-family: 'Futura PT';
+}
+
+.fa-tag {
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+
+.fa-map-marker-alt {
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+
+.bed-set__text {
+    margin: 200px auto 85px;
+    max-width: 380px;
+    text-align: center;
+}
+
+.bed-set__title {
+    font-family: 'Futura PT - Demi';
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+.bed-set__text>p {
+    font-family: 'Futura PT';
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bed-set__item {
+    width: 361px;
+}
+
+.item__up {
+    background-color: #f5f2ec;
+    padding-bottom: 20px;
+}
+
+.item__up>img {
+    margin: auto;
+    padding-top: 30px;
+}
+
+.item__up>p {
+    text-align: center;
+    font-family: 'Futura PT - Demi';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #958578;
+}
+
+.down__row__star {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 30px;
+}
+
+.star__left {
+    font-family: 'Futura PT';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+.star__left>span {
+    font-family: 'Futura PT';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #e06d9f;
+}
+
+.star__right {
+    font-family: 'Font Awesome';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #f6bf17;
+}
+
+.down__row__price {
+    display: flex;
+}
+
+.price__left {
+    font-family: 'Futura PT';
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.015em;
+    color: #000000;
+    margin-right: 25px;
+}
+
+
+.price__right__up {
+    font-family: 'Futura PT - Demi';
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+.price__right__down {
+    font-family: 'Futura PT - Demi';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+.bed-set__link {
+    display: block;
+    margin: 50px auto 135px;
+    text-align: center;
+    font-family: 'Futura PT - Demi';
+    font-size: 25px;
+    line-height: 80px;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    background-color: #02b9d4;
+    text-decoration: none;
+}
